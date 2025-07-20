@@ -10976,3 +10976,35 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* Reduce spacing specifically for Awards and Languages sections */
+#awards h2.mb-5,
+#languages h2.mb-5 {
+  margin-bottom: 0.5rem !important;
+  margin-top: 0 !important;
+}
+
+#awards .resume-section-content,
+#languages .resume-section-content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* More aggressive override for Awards and Languages */
+section#awards h2.mb-5,
+section#languages h2.mb-5 {
+  margin-bottom: 0.25rem !important;
+  margin-top: 0 !important;
+}
+
+section#awards .resume-section-content,
+section#languages .resume-section-content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Custom class for Education, Awards, and Languages titles */
+.section-title-compact {
+  margin-bottom: 0.5rem !important;
+  margin-top: 0 !important;
+}

@@ -80,9 +80,9 @@
             </section>
             <hr class="m-0" />
             <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
+            <section class="resume-section" id="education" style="padding-top: 0.5rem !important; padding-bottom: 0.5rem !important;">
+                <div class="resume-section-content" style="margin-top: 0 !important; padding-top: 0 !important;">
+                    <h2 class="mb-5" style="margin-bottom: 0.25rem !important; margin-top: 0 !important;">Education</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Master of Science in Computer Science and Quality Systems Engineering</h3>
@@ -104,30 +104,40 @@
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Technical Skills</h2>
+                    <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages</div>
-                    <ul class="fa-ul mb-0">
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Python, Java, JavaScript, SQL</li>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-java"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-database"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-microsoft"></i></li>
                     </ul>
-                    <div class="subheading mb-3 mt-3">AI &amp; ML</div>
                     <ul class="fa-ul mb-0">
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Machine Learning, Deep Learning, Speech Processing, NLP, Generative AI</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>PYTHON</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>JAVA</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>HTML/CSS/JS</li>
                     </ul>
-                    <div class="subheading mb-3 mt-3">Frameworks</div>
+                    <div class="subheading mb-3 mt-3">Data Science</div>
                     <ul class="fa-ul mb-0">
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>TensorFlow, PyTorch, Keras, SpeechBrain, Akka, Flask, Django</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>SQL</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>POWERBI</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>DATA SCIENCE</li>
                     </ul>
-                    <div class="subheading mb-3 mt-3">Model Optimization</div>
+                    <div class="subheading mb-3 mt-3">Frameworks and Libraries</div>
                     <ul class="fa-ul mb-0">
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Edge deployment, quantization, model pruning, latency reduction</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>PYTORCH</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>PANDAS</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>TENSORFLOW</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>SCIKIT-LEARN</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>NUMPY</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>SPEECH PROCESSING, SPEECHBRAIN</li>
                     </ul>
-                    <div class="subheading mb-3 mt-3">Libraries &amp; Tools</div>
+                    <div class="subheading mb-3 mt-3">Infrastructure</div>
                     <ul class="fa-ul mb-0">
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>NumPy, Pandas, Scikit-learn, OpenCV, Git</li>
-                    </ul>
-                    <div class="subheading mb-3 mt-3">Deployment &amp; Scalability</div>
-                    <ul class="fa-ul mb-0">
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Docker, REST APIs, real-time data handling</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>GIT</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>DOCKER</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>REAL-TIME DATA HANDLING</li>
                     </ul>
                 </div>
             </section>
@@ -137,10 +147,10 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
                     <div class="mb-4">
-                        <h4>Detecting Parkinson’s Disease from Speech Recordings <span class="text-muted">(Feb 2025 – April 2025)</span></h4>
+                        <h4>Detecting Parkinson's Disease from Speech Recordings</h4>
                         <div>Machine Learning Project, Speech Processing</div>
                         <ul>
-                            <li>Developed a machine learning system to detect early symptoms of Parkinson’s disease from short speech recordings.</li>
+                            <li>Developed a machine learning system to detect early symptoms of Parkinson's disease from short speech recordings.</li>
                             <li>Implemented neural models such as X-vectors, ECAPA-TDNN, and Wav2Vec2 using SpeechBrain to enhance detection accuracy.</li>
                             <li>Extracted and processed key audio features (MFCC, mel spectrograms, log-filter banks) for model input.</li>
                             <li>Optimized models through hyperparameter tuning and transfer learning, improving inference robustness.</li>
@@ -149,7 +159,7 @@
                         </ul>
                     </div>
                     <div class="mb-4">
-                        <h4>Museum Image Classifier <span class="text-muted">(Feb 2025 – Present)</span></h4>
+                        <h4>Museum Image Classifier</h4>
                         <div>Machine Learning Project, Image Classification</div>
                         <ul>
                             <li>Implemented multiple models including Decision Trees, Random Forests, Boosting, and CNNs to classify museum images into indoor and outdoor categories.</li>
@@ -160,7 +170,7 @@
                         </ul>
                     </div>
                     <div class="mb-4">
-                        <h4>Audio Digit Classifier <span class="text-muted">(Jan 2025)</span></h4>
+                        <h4>Audio Digit Classifier</h4>
                         <div>Machine Learning Project, Speech Recognition</div>
                         <ul>
                             <li>Trained the model on open-source datasets (CIFAR-10) to achieve 85 percent accuracy.</li>
@@ -176,14 +186,14 @@
                         </ul>
                     </div>
                     <div class="mb-4">
-                        <h4>Optimization of FER for Edge Devices <span class="text-muted">(Dec 2024)</span></h4>
+                        <h4>Optimization of FER for Edge Devices</h4>
                         <div>Computer Vision</div>
                         <ul>
                             <li>Optimized machine learning models for resource-constrained edge devices, improving inference speed and efficiency by reducing model size and complexity.</li>
                         </ul>
                     </div>
                     <div class="mb-4">
-                        <h4>TubeLytics – YouTube Analytics System <span class="text-muted">(Dec 2024)</span></h4>
+                        <h4>TubeLytics – YouTube Analytics System</h4>
                         <div>Play Framework, Akka and Java</div>
                         <ul>
                             <li>Built a scalable analytics pipeline to handle large volumes of data from the YouTube API, optimizing performance for real-time insights and low latency.</li>
@@ -193,9 +203,9 @@
             </section>
             <hr class="m-0" />
             <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards</h2>
+            <section class="resume-section" id="awards" style="padding-top: 0.5rem !important; padding-bottom: 0.5rem !important;">
+                <div class="resume-section-content" style="margin-top: 0 !important; padding-top: 0 !important;">
+                    <h2 class="mb-5" style="margin-bottom: 0.25rem !important; margin-top: 0 !important;">Awards</h2>
                     <ul class="fa-ul mb-0">
                         <li><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>Concordia Merit Scholarship &ndash; Awarded for outstanding academic performance in the MSc Computer Science program at Concordia University.</li>
                     </ul>
@@ -203,9 +213,9 @@
             </section>
             <hr class="m-0" />
             <!-- Languages-->
-            <section class="resume-section" id="languages">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Languages</h2>
+            <section class="resume-section" id="languages" style="padding-top: 0.5rem !important; padding-bottom: 0.5rem !important;">
+                <div class="resume-section-content" style="margin-top: 0 !important; padding-top: 0 !important;">
+                    <h2 class="mb-5" style="margin-bottom: 0.25rem !important; margin-top: 0 !important;">Languages</h2>
                     <ul class="fa-ul mb-0">
                         <li><span class="fa-li"><i class="fas fa-check"></i></span>Persian: Native</li>
                         <li><span class="fa-li"><i class="fas fa-check"></i></span>English: Fluent</li>
